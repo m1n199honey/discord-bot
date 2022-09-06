@@ -32,7 +32,7 @@ const {
     createAudioResource,
     entersState
 } = require('@discordjs/voice');
-const { Player, QueryType } = require("discord-player");
+const { Player } = require("discord-player");
 client.player = new Player(client);
 // ------------------------
 client.login(config.TOKEN);

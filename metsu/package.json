@@ -6,7 +6,8 @@
   "scripts": {
     "bot": "node .",
     "deploy": "node deploy-commands.js",
-    "tbot": "node temp-bot.js"
+    "tbot": "node temp-bot.js",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "Hachi Metsu",
